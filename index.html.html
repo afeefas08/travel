@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel-website</title>
+    <link rel="stylesheet" href="travel.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <script src="https://kit.fontawesome.com/039a7795ab.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<script src="travel.js"></script>
+    <div class="container">
+        <header>
+            <div class="col">
+            <div class="nav-bar">
+                <img src="images/ello1.png" alt="LOGO" id="travello">
+                <nav>
+                    <ul class="sidebar">
+                        <i onclick="hideSidebar()" class="fa-solid fa-xmark"></i>
+                        <li href="#">HOME</a></li>
+                        <li href="#">ABOUT US</a></li>
+                        <li href="#">DESTINATION</a></li>
+                        <li href="#">CONTACT</a></li>
+                    </ul>
+
+                    <ul id="navigation">
+                        <li class="hideOnMobile" href="#HOME">HOME</li>
+                        <li class="hideOnMobile" href="#ABOUT US">ABOUT US</li>
+                        <li class="hideOnMobile" href="#DESTINATION">DESTINATION</li>
+                        <li class="hideOnMobile" href="#CONTACT">CONTACT</li>
+                    </ul>
+                </nav>
+                <img onclick="showSidebar()" src="images/menu1.png" alt="" class="menu-icon">
+            </div>
+            </div>
+
+        <!---------------------------------->
+            <div class="col">
+            <div id="r1">
+                <h1>Explore The Majestic Asia Landscape Now</h1>
+                <button>GET STARTED <i class='bx bx-right-arrow-alt'></i></button>
+            </div>
+            <div class="social-links">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="vertical-line"></div>
+            </div>
+            <div class="lock">
+            <div class="arrow" id = "arrow-1">
+            <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="arrow" id = "arrow-2">
+            <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </header>
+        <section>
+            <center><h1>Top values for you</h1>
+            <h5>Try variety of benefits when using our  services</h5></center>
+
+        <div class="row">
+            <div class="col-1">
+                <div class="back" id = "back-1">
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+                <h4>Airport pickup</h4>
+                <p>We provide escort from the airport to the hotel</p>
+            </div>
+
+            <div class="col-1">
+                <div class="back" id = "back-2">
+                <i class="fa-solid fa-wallet"></i></div>
+                <h4>Easy booking</h4>
+                <p>Quick and easy booking of tour for upcoming dates</p>
+            </div>
+
+            <div class="col-1">
+                <div class="back" id = "back-3">
+                <i class="fa-solid fa-user-group"></i></div>
+                <h4>Best tour guide</h4>
+                <p>Our best tour guide is ready to guide your trip</p>
+            </div>
+
+            <div class="col-1">
+                <div class="back" id = "back-4">
+                <i class="fa-solid fa-tags"></i></div>
+                <h4>Lots of promos</h4>
+                <p>Various promotions and drawingd of tours</p>
+            </div>
+        </div>
+        </section>
+        <!----------------------------------->
+        <section id="gallery">
+            <div class="image-gallery">
+                <div class="pic-1">
+                    <h3 class="place-1">Taj Mahal</h3>
+                    <p class="place-1">Agra, India</p>
+                    <div class="icon" id="icon-1">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="pic-2">
+                    <h3 class="place-2">Matterhorn</h3>
+                    <p class="place-2">Zermatt, Switzerland</p>
+                    <div class="icon" id="icon-2">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="pic-3">
+                    <h3 class="place-2">Goreme</h3>
+                    <p class="place-2">Cappadocia, Turkey</p>
+                    <div class="icon" id="icon-2">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="pic-4">
+                    <h3 class="place-4">Padar Island</h3>
+                    <p class="place-4">East Nusa, Tenggara</p>
+                    <div class="icon" id="icon-4">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="about-section">
+                <div class="about">
+                    <h1>Experience The New Adventure</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet assumenda in temporibus est eligendi quidem blanditiis repellendus quod consectetur praesentium nam ab, facilis ratione hic distinctio iure, eaque fugit tenetur!</p>
+                    <div class="about-1">
+                        <div class="about-11">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div class="about-12">
+                        <h2>Safe Travelling</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam fugit officia assumenda.</p></div>
+                    </div>
+                    <div class="about-1">
+                        <div class="about-11">
+                            <i class="fa-solid fa-money-bill"></i></div>
+                            <div class="about-12">
+                            <h2>Affordable Price</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam fugit officia assumenda.</p></div>
+                    </div>
+                    <div class="about-1">
+                            <div class="about-11">
+                            <i class="fa-solid fa-door-closed"></i></div>
+                            <div class="about-12">
+                            <h2>Comfort Accommmodation</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam fugit officia assumenda.</p></div>
+                    </div>
+    
+                </div>
+                <div class="travel-img">
+                    <img src="https://images.pexels.com/photos/2265876/pexels-photo-2265876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer>
+            <div id="footer-1">
+                <div id="f-one" class="foot-1">
+                    <img src="images/ello1.png" alt="LOGO" id="logo">
+                    <p id="copy">copyright @2024 </p>
+                </div>
+                <div class="foot-1">
+                    <h3>Company</h3>
+                    <p>Term & Conditions</p>
+                    <p>Privacy Policy</p>
+                    <p>FAQs</p>
+                </div>
+                <div class="foot-1">
+                    <h3>Bookings</h3>
+                    <p>Packages</p>
+                    <p>Destination</p>
+                    <p>Personal trip</p>
+                    <p>Group trip</p>
+                    <p>Tour payments</p>
+                </div>
+                
+            </div>
+            <div id="footer-2">
+                <div class="f-two">
+                <h3>Sign up to our Newsletter</h3>
+                <input type="text" placeholder="E-mail">
+                <button>SUBSCRIBE</button>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
